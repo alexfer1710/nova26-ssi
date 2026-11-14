@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:nova26:rub",
+  "verificationMethod": [
+    {
+      "id": "did:nova26:rub#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:nova26:rub",
+      "publicKeyMultibase": "MCowBQYDK2VwAyEArdth5/x1k3X6YZxDGYlTEu2Ig8fNNgIgM1RAB4RvXyo="
+    }
+  ],
+  "assertionMethod": [
+    "did:nova26:rub#key-1"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "MCowBQYDK2VwAyEAM4tkv73PCTo524xTC6xy/stKew0dNNR6sQ7PrP5pKiA=": {
+    "name": "Univeristat de barcelona",
+    "did": "did:nova26:uab",
+    "statusListUrl": "/status-lists/uab.json"
+  },
+  "MCowBQYDK2VwAyEAS4tFAAz6Wsu4I0IkAZno8bS19vibzOw2ePEl/T6E+Ug=": {
+    "name": "Universitat de Lleida",
+    "did": "did:nova26:uni",
+    "statusListUrl": "/status-lists/uni.json"
+  },
+  "MCowBQYDK2VwAyEAIaJsN/lIYNdQ5USNXJ+f6aicWBwWJVD+2P1vCqXbkzM=": {
+    "name": "Universitat de mi casa",
+    "did": "did:nova26:cas",
+    "statusListUrl": "/status-lists/cas.json"
+  },
+  "MCowBQYDK2VwAyEArdth5/x1k3X6YZxDGYlTEu2Ig8fNNgIgM1RAB4RvXyo=": {
+    "name": "Universidad Ruben",
+    "did": "did:nova26:rub",
+    "statusListUrl": "/status-lists/rub.json"
+  },
+  "MCowBQYDK2VwAyEAxW3JV+x50+TNj2WDvBH7yb8MtsNSSrt5tFNEK5ALMKg=": {
+    "name": "Universitat Gimbernat",
+    "did": "did:nova26:eug",
+    "statusListUrl": "/status-lists/eug.json"
+  },
+  "MCowBQYDK2VwAyEAGkg6I4SoGLcWQw4fIIXneBqEb+yyvKBKOXLNvhR4ajc=": {
+    "name": "Universitat montmelo",
+    "did": "did:nova26:Mon",
+    "statusListUrl": "/status-lists/Mon.json"
+  }
+}

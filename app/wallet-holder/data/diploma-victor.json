@@ -1,0 +1,67 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://nova26.id/credentials/v1"
+  ],
+  "id": "http://university.example.com/credentials/6405",
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "issuer": "did:nova26:uni-bcn-001",
+  "validFrom": "2026-05-01T19:59:32.289Z",
+  "credentialSubject": {
+    "id": "did:nova26:student-6405",
+    "claims": {
+      "name": {
+        "value": "victor saiz",
+        "salt": "837db699b40eea13",
+        "hash": "fe454e5cde0390a67436b8a94c294049c638a2f25a0c0ede9e1917cb5b74fa05"
+      },
+      "university": {
+        "value": "uab",
+        "salt": "7b2f72d4cca7240f",
+        "hash": "5722d5283515e42f93f0ad7106c3bbaf26c325baf5df1c55d83f6d2164d00b6f"
+      },
+      "degree": {
+        "value": "coasmd",
+        "salt": "46f11016ceccf1f1",
+        "hash": "98596b0a8f2d5b67e1238beca1f499d5271e8c3b2c544ff2c8662b266287f778"
+      },
+      "type": {
+        "value": "bachelor",
+        "salt": "c92057b148b61b23",
+        "hash": "cce95256daa939f64bb146f9c87c00f5a93ec571cea3b7bc89fcd0925f1fd9d7"
+      },
+      "gpa": {
+        "value": "4.00",
+        "salt": "10631bbeed9d7817",
+        "hash": "8ebba3b1fc57d1e0674ee6966223d8ae8712a83675927f5dd92caba33e24ee87"
+      },
+      "birthdate": {
+        "value": "2025-02-12",
+        "salt": "aafb6a0bdcfff61e",
+        "hash": "4cdbc76a1edaa328406a39c387f17844c017bad3eb7ee7da16c2c5dd4751b35f"
+      }
+    }
+  },
+  "credentialSchema": {
+    "id": "https://nova26.id/schemas/university-degree-v1.json",
+    "type": "JsonSchemaValidator2018"
+  },
+  "credentialStatus": {
+    "id": "https://nova26.id/status/uni-bcn-list#6405",
+    "type": "BitstringStatusListEntry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "6405",
+    "statusListCredential": "https://nova26.id/status/uni-bcn-list"
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "ecdsa-sd-2023",
+    "created": "2026-05-01T19:59:32.291Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:nova26:uni-bcn-001#key-1",
+    "proofValue": "F0fD6R/TAA3c8XjQp2voQ6a8Wf3vgxNEaucGeWxf6dwHnEouAIPPs2zDly6nQBNNLeu0D4ZuBCHfp+pdf5y0BQ=="
+  }
+}

@@ -1,0 +1,61 @@
+=== Ideas para mejorar el proyecto ===
+
+--- COSAS PARA EL JSON ---
+
+El LD-JWT debe incluir un enlace que sea para la web o portal donde la universidad tiene el Bitstring Status List. 
+Puedo hacer varios perfiles de universidades en el issuer, y cada uno tiene ligado si bitstring list.
+Intentaré colgar la bitstring list en blockchain
+
+
+--- COSAS PARA LA WEB ---
+
+Meter about us apartado. Página principal estilo "stripe.com" ,con elementos ampliables.
+Elementos a explicar en la web:
+
+        - ¿Qué es SSI?
+        - ¿Qué es un wallet holder?
+        - Triangle Of Trust
+        - ¿Qué es un Verifier?
+        - ¿Qué es un Issuer?
+        - ¿Qué es un Verifiable Credential?
+        - ¿Qué es un Verifiable Presentation?
+        - ¿Qué es un Selective Disclosure?
+        - ¿Qué es un Zero-Knowledge Proof?
+        - ¿Qué es un Bitstring Status List?
+        - ¿Qué es un Verifiable Credential Repository?
+
+        - ¿Qué es un Verifiable Credential Repository?
+
+--- COSAS PARA EL WALLET HOLDER ---
+
+
+--- FUNCIONAMIENTO DEL LD-JWT ---
+
+Cuando el issuer da el LD-JWT, los values 
+
+
+
+--- COSAS A EXPLICAR MEJOR ---
+
+Funcionamiento de la doble encriptación asmiétrica.
+El issuer pone los sets of claims con el value y el salt. El salt es para que no se pueda hacer hash del value directamente. Es un random string.
+El issuer incluye en el campo "proof" el tipo de hash utilizado y el resultado de encriptar con la clave privada la suma de todos los hashes.
+El holder puede ver que el issuer es legítimo hasheando la suma de value + salt de todos los claims y comparándolo con el proof, desencriptado con la clave pública.
+Para hacer el Selective Disclosure funcional, el holder debe incluir los campos visibles con value + salt y los campos ocultos con el hash resultado de la suma de esos dos.
+El holder firma ese VP íntegramente con su clave privada y añade su clave pública
+Cuando el verifier recibe el VP, 
+
+
+--- EXPLICAR EL PROOF VALUE ---
+
+El proof value es el resultado de aplicar una función hash a todos los claims del VP. 
+Se explica en otro documento de W3C.
+The operation of Data Integrity is conceptually simple. To create a cryptographic proof, the following steps are performed: 
+1) Transformation
+2) Hashing
+3) Proof Generation
+
+
+--- CREDENTIALS SCHEMA SCREEN ---
+
+Hacer una pestaña en la aplicación para mostrar los schemas de las credenciales.

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <rect width="120" height="40" fill="none"/>
+  <path d="M20 8 C14 8 10 12 10 18 C10 26 20 32 20 32 C20 32 30 26 30 18 C30 12 26 8 20 8 Z" fill="#1d3557"/>
+  <path d="M20 12 L24 20 H16 Z" fill="#e63946"/>
+  <text x="38" y="24" font-family="'Public Sans', sans-serif" font-size="12" font-weight="900" fill="#0B1A2F">UB</text>
+  <text x="38" y="32" font-family="'Public Sans', sans-serif" font-size="6" font-weight="700" fill="#67748B" letter-spacing="1">UNIVERSITAT</text>
+</svg>
